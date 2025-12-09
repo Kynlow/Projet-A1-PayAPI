@@ -1,0 +1,10 @@
+.email-input {
+	color: var(--lightsanjuanblue);
+	font-size: 15px;
+	background-color: var(--linkWaterwhite);
+    border: 0px;
+    border-radius: 999px;
+    font-family: 'public sans';
+    padding: 12px 0px 12px 20px;
+	width: 94%;
+}

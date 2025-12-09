@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Chango&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Chango&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.pulic-font {
+	font-family: "public sans";
+}
+.dm-font {
+	font-family: "DM Serif Display";
+}
+:root {
+	--darkpink: #ba4270;
+	--linkWaterwhite: #fbfcfe;
+	--sanjuanblue: #36536b;
+	--mirageblue: #1b262f;
+	--charmpink: #da6d97;
+	--lightsanjuanblue: #6c8294;
+    --background: #edf3f7
+}
+body {
+    background-color: var(--background);
+    font-family: 'public sans';
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--lightsanjuanblue);
+}
+a:visited {
+	color: currentColor;
+}

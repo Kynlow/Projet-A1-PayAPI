@@ -1,0 +1,33 @@
+.button {
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 999px;
+	padding: 12px 20px;
+	font-family: "public sans";
+}
+.pink-btn {
+	background-color: var(--darkpink);
+	color: var(--linkWaterwhite);
+	border: 0px;
+}
+.pink-btn:hover {
+	background-color: var(--charmpink);
+}
+.blue-btn {
+	color: var(--linkWaterwhite);
+	background-color: var(--mirageblue);
+	border: 1px solid var(--linkWaterwhite);
+}
+.blue-btn:hover {
+	background-color: var(--linkWaterwhite);
+	color: var(--mirageblue);	
+}
+.light-blue-btn {
+	background-color: var(--linkWaterwhite);
+	color: var(--mirageblue);
+	border: 1px solid var(--sanjuanblue);
+}
+.light-blue-btn:hover {
+	background-color: var(--mirageblue);
+	color: var(--linkWaterwhite);
+}
