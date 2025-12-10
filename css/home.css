@@ -9,6 +9,8 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 80px;
+	padding: 0px 0px 60px;
 }
 .hero {
 	display: flex;
@@ -148,7 +150,6 @@ form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 60px 0px;
 	gap: 80px;
 }
 .fonctionnalities-sec {
@@ -174,15 +175,62 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
-	width: 30%;
 }
+.avantages {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 60px;
+	text-align: center;
+}
+.articles-av {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+	max-width: 90%;
+}
+.av-h3 {
+	font-family: "public sans";
+	font-size: 18px;
+	color: var(--sanjuanblue);
+	font-weight: 700;
+}
+.bg-circle-3 {
+	position: absolute;
+	width: 50vw;
+	height: 666px;
+	border-radius: 50%;
+	top: -170px;
+	right: -35vw;
+	background: var(--sanjuanblue);
+	z-index: -1;
+	opacity: 15%;
+	display: none;
+}
+.fonctionnalities .fonctionnalities-sec:nth-child(2) {
+	position: relative;
+}
+.demo {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+.demo-h2 {
+	font-size: 32px;
+	color: var(--sanjuanblue);
+	font-weight: 400;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	h1 {
 		font-size: 48px;
 	}
 	form {
 		position: relative;
-		width: 100%;
+		max-width: 70%;
 		height: 30px;
 	}
 	.email-input {
@@ -209,6 +257,14 @@ h3 {
 		top: -232px;
 		left: 9vw;
 	}
+	.avantages {
+		flex-direction: row;
+		justify-content: space-evenly;
+		gap: 0px;
+	}
+	.articles-av {
+		max-width: 25%;
+	}
 }
 @media screen and (min-width: 1024px) {
 	body {
@@ -228,9 +284,9 @@ h3 {
 	.phone {
 		width: 30%;
 	}
-	form {
+	.form-1 {
 		position: relative;
-		width: 100%;
+		min-width: 100%;
 		height: 30px;
 	}
 	.email-input {
@@ -291,5 +347,24 @@ h3 {
 		flex-direction: row-reverse;
 		justify-content: space-evenly;
 		text-align: start;
+	}
+	.avantages {
+		flex-direction: row;
+		justify-content: space-evenly;
+		gap: 0px;
+		max-width: 70%;
+	}
+	.bg-circle-3 {
+		display: block;
+	}
+	.demo {
+		flex-direction: row;
+		justify-content: space-between;
+		max-width: 70%;
+	}
+	.form-2 {
+		width: 50%;
+		position: relative;
+		height: 30px;
 	}
 }
